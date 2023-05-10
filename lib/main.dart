@@ -3,6 +3,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import './my_cart.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'DBestech Learning GetX',
       theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home: Container(),
+      home: const MyCart(),
     );
   }
 }
